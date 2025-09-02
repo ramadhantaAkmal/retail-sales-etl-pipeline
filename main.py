@@ -9,5 +9,6 @@ if __name__ == "__main__":
     users_df = extract_json(USERS_PATH)
     
     #Transform
-    transform_df = transform_data()
+    transform_df = transform_data(products_df,transactions_df,users_df)
+    print(transform_df)
     
