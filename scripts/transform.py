@@ -17,4 +17,4 @@ def transform_data(products_df: pd.DataFrame, transaction_df: pd.DataFrame, user
     
     merge_df['amount'] = merge_df['quantity'] * merge_df['price']
     
-    return users_df
+    return merge_df
